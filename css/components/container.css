@@ -1,0 +1,36 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: justify;
+}
+
+.container h2, h4 {
+  font-size: 36px;
+  font-color : black;
+  margin-bottom: 90px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.body {
+  padding : 0px 20px;
+  margin-top : 0;
+}
+
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
